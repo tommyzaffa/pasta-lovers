@@ -1,0 +1,5 @@
+# Scraped originals used only as reference while building (45 MB)
+_source/
+
+# macOS
+.DS_Store

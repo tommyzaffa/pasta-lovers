@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js');</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blog — Pasta Lovers</title>
+<meta name="description" content="Notes on fresh pasta, Italian tradition and what happens in our kitchen.">
+<meta name="theme-color" content="#fdf4e7">
+<link rel="icon" href="assets/img/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog — Pasta Lovers">
+<meta property="og:description" content="Notes on fresh pasta, Italian tradition and what happens in our kitchen.">
+<meta property="og:image" content="assets/img/flatlay.jpg">
+
+<link rel="preload" href="assets/fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+
+<script src="i18n/en.js"></script>
+<script src="i18n/it.js"></script>
+<script src="i18n/de.js"></script>
+<script src="i18n/fr.js"></script>
+<script src="js/menu-data.js"></script>
+<script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip" href="#main" data-i18n="a11y.skip">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+
+<header class="header">
+  <div class="header__inner">
+    <a class="brand" href="index.html" data-i18n-attr="aria-label:a11y.logo">
+      <img src="assets/img/logo-wide-dark.png" alt="Pasta Lovers" width="176" height="52">
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a class="nav__link" href="menu.html" data-i18n="nav.menu">Menu</a></li>
+        <li><a class="nav__link" href="index.html#story" data-i18n="nav.story">Our story</a></li>
+        <li><a class="nav__link" href="index.html#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a class="nav__link" href="index.html#visit" data-i18n="nav.visit">Visit us</a></li>
+        <li><a class="nav__link" href="blog.html" data-i18n="nav.blog">Blog</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <div class="lang" data-open="false">
+        <button class="lang__btn" type="button" aria-haspopup="listbox" aria-expanded="false" data-i18n-attr="aria-label:nav.langLabel">
+          <span class="lang__code">EN</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="lang__menu" role="listbox"></div>
+      </div>
+
+      <a class="btn btn--accent btn--sm" href="https://www.pastalovers.com.au/online-ordering" target="_blank" rel="noopener" data-magnetic="0.18">
+        <span data-i18n="nav.order">Order now</span>
+      </a>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav class="drawer__list" aria-label="Mobile">
+    <a class="drawer__link" href="index.html" data-i18n="nav.home">Home</a>
+    <a class="drawer__link" href="menu.html" data-i18n="nav.menu">Menu</a>
+    <a class="drawer__link" href="index.html#story" data-i18n="nav.story">Our story</a>
+    <a class="drawer__link" href="index.html#gallery" data-i18n="nav.gallery">Gallery</a>
+    <a class="drawer__link" href="index.html#visit" data-i18n="nav.visit">Visit us</a>
+    <a class="drawer__link" href="blog.html" data-i18n="nav.blog">Blog</a>
+  </nav>
+  <div class="drawer__foot">
+    <a href="tel:+61431404548">0431 404 548</a>
+    <a href="mailto:pastalovers.au@gmail.com">pastalovers.au@gmail.com</a>
+    <a href="https://www.instagram.com/pastalovers_goldcoast" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="pagehead">
+    <div class="pagehead__bg" aria-hidden="true">
+      <img src="assets/img/flatlay.jpg" alt="" decoding="async">
+    </div>
+    <div class="wrap stack">
+      <p class="kicker" data-i18n="blog.kicker">Journal</p>
+      <h1 class="d1" data-reveal data-i18n="blog.title" data-i18n-split>Blog</h1>
+      <p class="lead" data-i18n="blog.body">Notes on fresh pasta, Italian tradition and what happens in our kitchen.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="posts" data-stagger="110">
+        <article class="post" data-reveal>
+          <a class="post__media" href="blog-fresh-pasta-delivered.html">
+            <img src="assets/img/bolognese.jpg" alt="" loading="lazy" decoding="async">
+          </a>
+          <div class="post__body">
+            <p class="post__meta">28.10.2025 &middot; 4 <span data-i18n="blog.readtime">min read</span></p>
+            <h2 class="post__title"><a href="blog-fresh-pasta-delivered.html" data-i18n="post1.title">Post</a></h2>
+            <p class="post__excerpt" data-i18n="post1.excerpt">Excerpt</p>
+            <p class="post__more"><a class="link-u" href="blog-fresh-pasta-delivered.html" data-i18n="blog.readmore">Read the article</a></p>
+          </div>
+        </article>
+        <article class="post" data-reveal>
+          <a class="post__media" href="blog-authentic-italian-recipes.html">
+            <img src="assets/img/carbonara.jpg" alt="" loading="lazy" decoding="async">
+          </a>
+          <div class="post__body">
+            <p class="post__meta">28.10.2025 &middot; 4 <span data-i18n="blog.readtime">min read</span></p>
+            <h2 class="post__title"><a href="blog-authentic-italian-recipes.html" data-i18n="post2.title">Post</a></h2>
+            <p class="post__excerpt" data-i18n="post2.excerpt">Excerpt</p>
+            <p class="post__more"><a class="link-u" href="blog-authentic-italian-recipes.html" data-i18n="blog.readmore">Read the article</a></p>
+          </div>
+        </article>
+        <article class="post" data-reveal>
+          <a class="post__media" href="blog-homemade-pasta.html">
+            <img src="assets/img/flatlay.jpg" alt="" loading="lazy" decoding="async">
+          </a>
+          <div class="post__body">
+            <p class="post__meta">28.10.2025 &middot; 3 <span data-i18n="blog.readtime">min read</span></p>
+            <h2 class="post__title"><a href="blog-homemade-pasta.html" data-i18n="post3.title">Post</a></h2>
+            <p class="post__excerpt" data-i18n="post3.excerpt">Excerpt</p>
+            <p class="post__more"><a class="link-u" href="blog-homemade-pasta.html" data-i18n="blog.readmore">Read the article</a></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <img class="footer__logo" src="assets/img/logo-stacked-light.png" alt="Pasta Lovers" loading="lazy">
+        <p data-i18n="footer.tagline">Where passion for pasta comes to life.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.explore">Explore</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="menu.html" data-i18n="nav.menu">Menu</a></li>
+          <li><a href="index.html#story" data-i18n="nav.story">Our story</a></li>
+          <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+          <li><a href="index.html#visit" data-i18n="nav.visit">Visit us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.legalTitle">Legal</h4>
+        <ul>
+          <li><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
+          <li><a href="terms.html" data-i18n="footer.terms">Terms &amp; Conditions</a></li>
+          <li><a href="accessibility.html" data-i18n="footer.accessibility">Accessibility Statement</a></li>
+          <li><a href="refund.html" data-i18n="footer.refund">Refund Policy</a></li>
+          <li><a href="shipping.html" data-i18n="footer.shipping">Shipping Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.followTitle">Follow</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/pastalovers_goldcoast" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="tel:+61431404548">0431 404 548</a></li>
+          <li><a href="mailto:pastalovers.au@gmail.com">pastalovers.au@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p><span data-i18n="footer.rights">&copy; Pasta Lovers</span> <span data-year>2026</span></p>
+      <a class="link-u" href="#main" data-i18n="footer.backTop">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
