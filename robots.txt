@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.pastalovers.com.au/sitemap.xml
+Sitemap: https://pastalovers.com.au/sitemap.xml
