@@ -1,0 +1,17 @@
+# Old Wix URLs -> new site. Read by Cloudflare Pages and Netlify.
+# GitHub Pages ignores this file.
+
+/online-ordering    https://order.pastalovers.com.au/online-ordering    301
+/menu               /menu.html                                          301
+/blog               /blog.html                                          301
+/post/savor-our-fresh-pasta-dishes-delivered-to-your-door        /blog-fresh-pasta-delivered.html      301
+/post/discover-authentic-italian-recipes-at-pasta-lovers         /blog-authentic-italian-recipes.html  301
+/post/experience-homemade-pasta-excellence-with-every-bite       /blog-homemade-pasta.html             301
+
+# Empty placeholder pages Wix left behind.
+/portfolio          /                                                   301
+/blank              /                                                   301
+/blank-1            /                                                   301
+/blank-2            /                                                   301
+/blank-3            /                                                   301
+/blank-4            /                                                   301
