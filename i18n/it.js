@@ -24,7 +24,7 @@ window.PL_I18N.it = {
   'marquee.2': 'Fatta a mano',
   'marquee.3': 'Currumbin Waters',
   'marquee.4': 'Italiana nel cuore',
-  'marquee.5': 'Asporto · Consegna · In sala',
+  'marquee.5': 'Asporto · In sala',
 
   'intro.kicker': 'Benvenuti',
   'intro.title': 'Assapora il gusto della pasta fatta in casa, preparata con amore',
@@ -52,12 +52,10 @@ window.PL_I18N.it = {
   'story.caption2': 'La sala: quadretti rossi e luce calda.',
 
   'order.kicker': 'Ordina online',
-  'order.title': 'Asporto, consegna o in sala',
+  'order.title': 'Asporto o in sala',
   'order.body': 'Puoi ordinare online: sfoglia i piatti del menù e scegli quello che preferisci.',
   'order.pickup': 'Asporto',
   'order.pickupDesc': 'Pronto per te al 42 Currumbin Creek Road. Ritiro dalle 17:00.',
-  'order.delivery': 'Consegna',
-  'order.deliveryDesc': 'Portiamo il piatto a casa tua. Costi di consegna e ordine minimo indicati al checkout.',
   'order.dinein': 'In sala',
   'order.dineinDesc': 'Tovaglie a quadretti rossi, luce calda e un piatto davanti. Vieni a sederti con noi.',
   'order.cta': 'Inizia l’ordine',

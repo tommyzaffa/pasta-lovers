@@ -24,7 +24,7 @@ window.PL_I18N.en = {
   'marquee.2': 'Made by hand',
   'marquee.3': 'Currumbin Waters',
   'marquee.4': 'Italian at heart',
-  'marquee.5': 'Pickup · Delivery · Dine-in',
+  'marquee.5': 'Pickup · Dine-in',
 
   'intro.kicker': 'Welcome',
   'intro.title': 'Savour the flavour of homemade pasta, crafted with love',
@@ -52,12 +52,10 @@ window.PL_I18N.en = {
   'story.caption2': 'The room: red checks, warm light.',
 
   'order.kicker': 'Order online',
-  'order.title': 'Pickup, delivery or dine-in',
+  'order.title': 'Pickup or dine-in',
   'order.body': 'You can order online. Browse our menu items and choose what you would like to order from us.',
   'order.pickup': 'Pickup',
   'order.pickupDesc': 'Ready for you at 42 Currumbin Creek Road. Pickup from 5:00 pm.',
-  'order.delivery': 'Delivery',
-  'order.deliveryDesc': 'We bring the bowl to your door. Delivery fees and minimum order shown at checkout.',
   'order.dinein': 'Dine-in',
   'order.dineinDesc': 'Red checked tablecloths, warm light and a bowl in front of you. Come and sit with us.',
   'order.cta': 'Start your order',

@@ -24,7 +24,7 @@ window.PL_I18N.fr = {
   'marquee.2': 'Faites à la main',
   'marquee.3': 'Currumbin Waters',
   'marquee.4': 'Italien de cœur',
-  'marquee.5': 'À emporter · Livraison · Sur place',
+  'marquee.5': 'À emporter · Sur place',
 
   'intro.kicker': 'Bienvenue',
   'intro.title': 'Savourez le goût des pâtes maison, préparées avec amour',
@@ -52,12 +52,10 @@ window.PL_I18N.fr = {
   'story.caption2': 'La salle : carreaux rouges, lumière chaude.',
 
   'order.kicker': 'Commander en ligne',
-  'order.title': 'À emporter, en livraison ou sur place',
+  'order.title': 'À emporter ou sur place',
   'order.body': 'Vous pouvez commander en ligne : parcourez notre carte et choisissez ce qui vous fait envie.',
   'order.pickup': 'À emporter',
   'order.pickupDesc': 'Prêt pour vous au 42 Currumbin Creek Road. Retrait à partir de 17h00.',
-  'order.delivery': 'Livraison',
-  'order.deliveryDesc': 'Nous apportons le bol chez vous. Frais de livraison et minimum de commande indiqués au paiement.',
   'order.dinein': 'Sur place',
   'order.dineinDesc': 'Nappes à carreaux rouges, lumière chaude et un bol devant vous. Venez vous asseoir avec nous.',
   'order.cta': 'Commencer la commande',

@@ -24,7 +24,7 @@ window.PL_I18N.de = {
   'marquee.2': 'Handgemacht',
   'marquee.3': 'Currumbin Waters',
   'marquee.4': 'Italienisch im Herzen',
-  'marquee.5': 'Abholung · Lieferung · Vor Ort',
+  'marquee.5': 'Abholung · Vor Ort',
 
   'intro.kicker': 'Willkommen',
   'intro.title': 'Genieße den Geschmack hausgemachter Pasta, mit Liebe gemacht',
@@ -52,12 +52,10 @@ window.PL_I18N.de = {
   'story.caption2': 'Der Raum: rote Karos, warmes Licht.',
 
   'order.kicker': 'Online bestellen',
-  'order.title': 'Abholung, Lieferung oder vor Ort',
+  'order.title': 'Abholung oder vor Ort',
   'order.body': 'Du kannst online bestellen: Sieh dir unsere Gerichte an und wähle aus, was du möchtest.',
   'order.pickup': 'Abholung',
   'order.pickupDesc': 'Bereit für dich an der 42 Currumbin Creek Road. Abholung ab 17:00 Uhr.',
-  'order.delivery': 'Lieferung',
-  'order.deliveryDesc': 'Wir bringen dir die Schale nach Hause. Liefergebühren und Mindestbestellwert siehst du beim Checkout.',
   'order.dinein': 'Vor Ort',
   'order.dineinDesc': 'Rot karierte Tischdecken, warmes Licht und eine Schale vor dir. Setz dich zu uns.',
   'order.cta': 'Bestellung starten',
