@@ -1,5 +1,8 @@
 # Scraped originals used only as reference while building (45 MB)
 _source/
 
+# Client's hi-res originals, kept locally but never referenced by the site
+assets/img/Pasta Lovers Launch Images Hi Res-*.jpg
+
 # macOS
 .DS_Store
